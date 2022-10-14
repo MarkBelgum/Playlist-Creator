@@ -3,7 +3,7 @@ The Best Playlist Creator Ever! Takes a random song from every album of an artis
 
 TLDR: modify the variables in lines 5-10 for your files
 
-```
+```python
 artistPath="/Users/markbelgum/Music/Queen/"  #path to the folder with all of the albums you want to pull from
 # array of folder names for each album
 albums=["Queen","Queen II","Sheer Heart Attack","A Night At The Opera","A Day At The Races","News Of The World","Jazz",
