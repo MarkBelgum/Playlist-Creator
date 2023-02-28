@@ -4,10 +4,14 @@ The Best Playlist Creator Ever! Takes a random song from every album of an artis
 TLDR: modify the variables in lines 5-10 for your files.
 
 ```python
-artistPath="/Users/markbelgum/Music/Queen/"  #path to the folder with all of the albums you want to pull from
+#path to the folder with all of the albums you want to pull from
+artistPath="/Users/markbelgum/Music/Queen/"  
 # array of folder names for each album
-albums=["Queen","Queen II","Sheer Heart Attack","A Night At The Opera","A Day At The Races","News Of The World","Jazz",
-        "The Game","Flash Gordon","Hot Space","The Works","A Kind Of Magic","The Miracle","Innuendo","Made In Heaven"]
-filePath="/Users/markbelgum/Documents/Music/Custom Playlists/Queen.m3u" # path to the file to be imported into iTunes
-cycles=12   # number of times the playlist will cycle through the albums as an integer
+albums=["Queen","Queen II","Sheer Heart Attack","A Night At The Opera","A Day At The Races",
+        "News Of The World","Jazz", "The Game","Flash Gordon","Hot Space","The Works",
+        "A Kind Of Magic","The Miracle","Innuendo","Made In Heaven"]
+# path to the file to be imported into iTunes
+filePath="/Users/markbelgum/Documents/Music/Custom Playlists/Queen.m3u" 
+# number of times the playlist will cycle through the albums as an integer
+cycles=12  
 ```
